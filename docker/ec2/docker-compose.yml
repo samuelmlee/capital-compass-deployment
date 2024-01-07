@@ -10,7 +10,7 @@ services:
   gateway:
     image: samuelmlee/capitalcompass-gateway:v0.0.1
     ports:
-      - "8082:8082"
+      - "8443:8443"
     environment:
-      - SPRING_PROFILES_ACTIVE=docker,ec2
+      - SPRING_PROFILES_ACTIVE=docker
 

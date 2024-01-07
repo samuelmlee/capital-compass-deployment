@@ -16,7 +16,7 @@ services:
     volumes:
       - C:/Users/sam_m/.aws:/home/cnb/.aws:ro
     ports:
-      - "8082:8082"
+      - "8443:8443"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
 
