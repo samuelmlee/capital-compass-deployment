@@ -12,5 +12,7 @@ services:
     ports:
       - "8443:8443"
     environment:
-      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_PROFILES_ACTIVE=docker,swarm
+  redis:
+    image: redis:7.2.3
 
