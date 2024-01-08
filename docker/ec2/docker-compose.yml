@@ -1,12 +1,12 @@
 services:
-#  user-service:
-#    image: samuelmlee/capitalcompass-user-service:v0.0.1
-#    environment:
-#      - SPRING_PROFILES_ACTIVE=docker
-#  stock-service:
-#    image: samuelmlee/capitalcompass-stock-service:v0.0.1
-#    environment:
-#      - SPRING_PROFILES_ACTIVE=docker
+  user-service:
+    image: samuelmlee/capitalcompass-user-service:v0.0.1
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+  stock-service:
+    image: samuelmlee/capitalcompass-stock-service:v0.0.1
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
   gateway:
     image: samuelmlee/capitalcompass-gateway:v0.0.1
     ports:
