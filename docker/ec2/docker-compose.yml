@@ -14,7 +14,7 @@ services:
     volumes:
       - ~/swarm1-keystore.p12:/swarm1-keystore.p12:ro
     environment:
-      - SPRING_PROFILES_ACTIVE=docker,swarm
+      - SPRING_PROFILES_ACTIVE=docker,ec2
   redis:
     image: redis:7.2.3
 
